@@ -1,64 +1,75 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Mateusz
   middle:
-  last: Doe
+  last: Zubek
 about: Hi, my name is John Doe. I"m just about the most boring type of person you could
        possibly imagine. I like collecting leaves from the tree in my back yard and documenting
        each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+position: Frontend Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1993
+  location: Siedlce
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
-
-- company: Company B
+- company: Softax
   position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+  timeperiod: July 2018 - present
+  descriptions:
+   - desc: "- Implementing web application for a financial sector using ReactJS and Semantic UI"
+   - desc: "- Creating web framework supporting banking stuff in claims analysis with usage of ReactJS and Material UI"
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: Samsung
+  position: Trainee / Junior JavaScript Developer
+  timeperiod: October 2016 - August 2017
+  descriptions:
+    - desc: "- Creating application supporting workflow of the team"
+    - desc: "- Developing new features in WebPlayer project"
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
+- degree: Master of science
+  timeperiod: October 2016 - present
+  descriptions:
+  - desc: "Warsaw University of Technology, Faculty of Electronics and Information Technology, Telecommunications,"
+  - desc: "thesis: Analysis of movie recommendation methods"
   website: https://example.com
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Master of science, Erasmus
+  timeperiod: September 2017 - February 2018
+  descriptions:
+  - desc: Universidad Miguel Hernández de Elche, Hiszpania,
+  - desc: Máster Universitario en Ingeniería de Telecomunicación
+
+- degree: Bachelor of science
+  timeperiod: October 2012 - September 2016
+  descriptions:
+    - desc: "Warsaw University of Technology, Faculty of Electronics and Information Technology, Telecommunications,"
+    - desc: "thesis: Video on Demand web platform"
 
 # skill level goes 0 to 100
 skills:
+- name: JavaScript
+  level: 97
+- name: ReactJS
+  level: 60
+- name: Redux
+  level: 80
 - name: HTML5
   level: 99
 - name: CSS3
   level: 95
-- name: JavaScript
-  level: 97
 - name: Node.js
   level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: Python
   level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Material UI
+  level: 80
+- name: English C1
+  level: 80
+- name: Spanish A2
+  level: 80
+knowledge: I am interested in football, comic books and spanish culture.
 
 projects:
 - name: best-resume-ever
@@ -67,12 +78,16 @@ projects:
   url: https://github.com/salomonelli/best-resume-ever
 
 hobbies:
-- name: Video Games
+- name: Komiksy
   iconClass: fa fa-gamepad
   url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
+- name: Piłka nożna
+  iconClass: fa fa-futbol-o
+  url: https://example.com
+
+- name: Kultura hiszpańska
+  iconClass: fa fa-flag
   url: https://example.com
 
 contributions:
@@ -81,12 +96,12 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: mat.zubek@gmail.com
+  phone: 500 838 862
+  street: Korytnicka 27/14
+  city: Warsaw
+  # website: johndoe.com
+  # github: johnyD
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
 lang: en
 `
